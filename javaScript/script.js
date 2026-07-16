@@ -28,3 +28,14 @@ let isfollow = false;
 console.log(isfollow);
 isfollow = true;
 console.log(isfollow);
+////////////////////////////////
+let name = "Piyas";
+console.log(name);
+const fullName2 = "Piyas Ahmed";
+console.log(fullName2);
+// var : Variable can be re-declared & updated. A global scope variable.
+// let : Variable cannot be re-declared bur can updated . A block scope Variable.
+// const : Variable cannot be re-declared or updated . A block scope variable
+
+const PI = Math.PI;
+console.log(PI);
