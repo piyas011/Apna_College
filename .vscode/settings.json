@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "html.format.enable": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.wrapLineLength": 120,
+    "html.format.unformatted": "wbr,em,strong,span,a",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
+}
