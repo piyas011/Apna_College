@@ -39,3 +39,19 @@ console.log(fullName2);
 
 const PI = Math.PI;
 console.log(PI);
+
+//////////////////////////////////////////
+
+// Create a const Object called "profile" to store information
+const profile = {
+  profileName: "Piyas Ahmed",
+  post: 140,
+  followers: 700,
+  following: 1,
+  userName: "@piyas0.12",
+  isfollow: true,
+};
+
+console.log(profile);
+// console.log(profile.profileName);
+console.log(`Total Followers : ${profile.followers}`);
