@@ -24,8 +24,8 @@
 // console.log(sum);
 
 // do While Loop
-let i = 0;
-do {
-  console.log(i);
-  i++;
-} while (i <= 10);
+// let i = 0;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= 10);
