@@ -92,3 +92,23 @@
 // } else {
 //   console.log(`${num} is not multiple of 5`);
 // }
+
+const mark = prompt("Enter Your Mark ");
+let result;
+
+if (mark >= 80 && mark <= 100) {
+  result = "A+";
+} else if (mark >= 70 && mark < 80) {
+  result = "A";
+} else if (mark >= 60 && mark < 70) {
+  result = "B";
+} else if (mark >= 50 && mark < 60) {
+  result = "C";
+} else if (mark >= 33 && mark < 50) {
+  result = "D";
+} else if (mark < 33 && mark >= 0) {
+  result = "FAAAAAAAAAAAAAAAAh";
+} else {
+  result = "Invalide Input!";
+}
+console.log(`Your Mark = ${mark} : ${result}`);
