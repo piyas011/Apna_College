@@ -93,7 +93,7 @@
 //   console.log(`${num} is not multiple of 5`);
 // }
 
-const mark = prompt("Enter Your Mark ");
+const mark = 60;
 let result;
 
 if (mark >= 80 && mark <= 100) {
